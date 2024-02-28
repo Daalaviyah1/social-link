@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+}
+.main {
+    background: hsl(0, 0%, 12%);
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avater{
+    border-radius: 100%;
+    width: 100px;
+
+}
+h1, p{
+    color: white;
+}
+h3 {
+    color: chartreuse;
+}
+.btn{
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: Grey: hsl(0, 0%, 20%);
+}
